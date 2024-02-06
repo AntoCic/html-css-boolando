@@ -103,6 +103,55 @@ header :is(img,a,button){
   margin: 10px 0;
 }
 
+/* main */
+main .container{
+  padding: 30px 0;
+}
+.card{
+  width: calc(800px/3);
+  display: inline-block;
+  padding: 15px 5px;
+}
+.card-img-box{
+  position: relative;
+}
+.card-img-box span{
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 5px;
+  padding: 3px 8px;
+}
+.card-img-box div{
+  position: absolute;
+  padding: 3px 5px;
+  color: white;
+  font-size: 0.7em;
+  bottom: 30px;
+}
+.card-img-box .discount:nth-child(3){
+  background-color: red;
+}
+.card-img-box .asset:nth-child(3){
+  background-color: green;
+}
+.card-img-box :nth-child(4){
+  left: 35px;
+  background-color: green;
+}
+.brand,
+.description,
+.price-box{
+  font-size: 0.7em;
+}
+.price-box > *{
+  display: inline-block;
+}
+.price{
+  color: red;
+}
+
+
 
 
 /* -- DEBUG -- */
