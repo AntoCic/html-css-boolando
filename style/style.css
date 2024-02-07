@@ -156,7 +156,7 @@ main .container{
   opacity: 0;
 }
 
-.card-img-box:hover img:nth-child(1){
+.card:hover .card-img-box img:nth-child(1){
   opacity: 1;
 }
 
